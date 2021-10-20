@@ -3,6 +3,7 @@
     "incremental": true,
     "target": "es2016",
     "module": "commonjs",
+    "jsx": "react-jsx",
     "allowJs": true,
     "checkJs": false,
     "outDir": "./dist",
@@ -11,7 +12,9 @@
     "alwaysStrict": true,
     "moduleResolution": "node",
     "esModuleInterop": true,
-    "strictPropertyInitialization": false
+    "strictPropertyInitialization": false,
+    "noPropertyAccessFromIndexSignature": false,
+    "noUncheckedIndexedAccess": false
   },
   "include": ["**/*"]
 }
